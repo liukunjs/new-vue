@@ -1,0 +1,47 @@
+$navColor:#06c1ae;
+@mixin arrow($w:10,$c:#000,$dir:left){
+	width:0;
+	font-size:0;
+	border:$w solid transparent;
+	border-#{$dir}-color:$c;
+}
+@mixin clearfix(){
+	&:after {
+		content:"";
+		display:block;
+		clear:both;
+	}
+}
+%item{
+	li{
+			display:flex;
+			padding: 10px 0;
+			border-bottom: 1px solid #ccc;
+			img{
+				width: 100px;
+				height:60px;
+			}
+			.content{
+				flex:1;
+				padding-top:0;
+				h4{
+				font-size:14px;
+				color:#333;
+				padding-bottom:20px;
+			
+					}
+				span {
+					padding-rigth:5px;
+					font-size:13px;
+				}
+				span.count{
+					float:right;
+					margin-right:10px;
+				}	
+				.price {
+					color:$navColor;
+					margin-right:10px;
+				}
+			}
+		}
+}

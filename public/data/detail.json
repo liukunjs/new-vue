@@ -1,0 +1,56 @@
+{
+	"data": {
+			"city_code": "SHA",
+			"cn_name": "上海",
+			"city_name": "Shanghai",
+			"images": "https:\/\/spics.hitour.cc\/a5f1c291438468d0e7b1c66df45f3b9f.jpg"
+		},
+	"list":[ 
+				{
+					"alias": "【度假精选】上海欢乐谷嘉途酒店（西班牙主题房+含早+玛雅水世界门票2张\/欢乐谷2张+酒店至欢乐谷或玛雅水世界穿梭巴士）",
+					"min_price": "399",
+					"images":"https:\/\/spics.hitour.cc\/60d247d38f161cd9f545a5a4c0c595b1.jpg"
+       			},
+				 {
+					"alias": "【度假精选】上海崇明由由喜来登酒店（豪华客房+双早+室内外儿童乐园）",
+					"min_price": "599",
+					"images":"https:\/\/spics.hitour.cc\/d7bed0051abe38f329c4c6eafbaff96e.jpg"
+				},
+				{ 
+					"alias": "【节假日不涨价】上海夏阳湖皇冠假日酒店（含早，部分套餐可选,玛雅水上乐园\/自助晚餐）",
+					"min_price": "819",
+					"images": "https:\/\/spics.hitour.cc\/95a5954ea29e54c3b66a845306f1eb9e.jpg"
+				},
+				 {
+					"alias": "【周末不涨价】上海柏思特酒店（含早+迪士尼班车接送）",
+					"min_price": "528",
+					"images": "https:\/\/spics.hitour.cc\/d98ca6e09e93595c5e3cba03fcb90bec.jpg"
+				
+				}, 
+				{
+					"alias": "【解锁夏天】牛路野营帐篷谷（四店任选，缤纷海陆烧烤+草坪娱乐+豪华帐篷\/特色住宿+水球大战\/电玩麻将\/自助早餐）",
+					"min_price": "679",
+					"images": "https:\/\/spics.hitour.cc\/88df336118ddb52add04193b08118364.jpg"
+				}, 
+				{
+					"alias": "【迪士尼周边】漫趣乐园酒店（双早+双晚+酒店里程卡一份+指定区域定时接送+迷你吧饮品）",
+					"min_price": "529",
+					"images": "https:\/\/spics.hitour.cc\/e367b89b25f126a47c4ce67fbbd1c6dd.jpg"
+				}, 
+				{
+					"alias": "【自选2晚或1晚】上海中信泰富朱家角锦江酒店（双早+双晚\/下午茶\/家庭套餐）",
+					"min_price": "888",
+					"images": "https:\/\/spics.hitour.cc\/675173b7c5b9106ba91c74b54b7997bd.jpg"
+				}, 
+				{
+					"alias": "【休闲度假】上海大船酒店（含双早+双人自助晚餐+免费使用室内恒温游泳池）",
+					"min_price": "688",
+					"images": "https:\/\/spics.hitour.cc\/966694c9e813a31b533bb964364e8893.jpg"
+				}, 
+				{
+					"alias": "【周末不加价】上海Dihouse迪庄精品度假庄园（含三早+亲子营养套餐+葡萄采摘+儿童乐园，享迪士尼度假区至酒店专车接送）",
+					"min_price": "899",
+					"images":"https:\/\/spics.hitour.cc\/a3d7182e5b1020543be6d9b12a7c0372.jpg"
+				}]
+ 
+}

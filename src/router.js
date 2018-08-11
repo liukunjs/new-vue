@@ -1,25 +1,41 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
-
-Vue.use(Router)
-
-export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    }
-  ]
-})
+//引入 vue  vue-router 并安装
+import Vue from "vue"
+import VueRouter from "vue-router"
+Vue.use(VueRouter)
+//引入模板
+import Home from "./components/home/Home.vue"
+import Shopcart from "./components/shopcart/Shopcart.vue"
+import Member from "./components/member/Member.vue"
+import Search from "./components/search/Search.vue"
+import Newslist from "./components/newslist/Newslist.vue"
+//路由规则
+let  routes = [
+		{
+			name:"home",
+			path:"/home",
+			component:Home
+		},
+		{
+			name:"shopcart",
+			path:"/shopcart",
+			component:Shopcart
+		},
+		{
+			name:"member",
+			path:"/member",
+			component:Member
+		},
+		{
+			name:"search",
+			path:"/search",
+			component:Search
+		},
+		{
+			//通过 {}名字的名字获取的时候多层情如/news/list况用打点调用news.list
+			name:"news.list",
+			path:"/news/list",
+			component:Newslist
+		}
+]
+let router = new VueRouter({routes})
+export default router

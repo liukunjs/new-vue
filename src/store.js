@@ -5,10 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-
+  		word:""
   },
   mutations: {
-
+  	sendWord(obj,word){
+  		this.state.word = word
+  	}
   },
   actions: {
 

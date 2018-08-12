@@ -37,6 +37,7 @@
 	p{
 		text-align:center;
 		margin-bottom:20px;
+		font-size:14px;
 	}
 }
 
@@ -48,7 +49,7 @@
 				img:"",
 				list:[
 				{src:"/img/icon/01.png",value:"新闻",router:{name:'news.list'}},
-				{src:"/img/icon/02.png",value:"新闻",router:{name:'news.list'}},
+				{src:"/img/icon/02.png",value:"图文分享",router:{name:'house.list'}},
 				{src:"/img/icon/03.png",value:"新闻",router:{name:'news.list'}},
 				{src:"/img/icon/04.png",value:"新闻",router:{name:'news.list'}},
 				{src:"/img/icon/05.png",value:"新闻",router:{name:'news.list'}},

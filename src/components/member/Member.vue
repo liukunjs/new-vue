@@ -1,40 +1,39 @@
 <template>
 	<div>
 		<div class="t">
-			<div class="header">
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
-			<li>4</li>
-			<li>5</li>
-			<li>6</li>
-			<li>7</li>
-			<li>8</li>
-			<li>9</li>
-			<li>10</li>
-		</div>
+			<ul class="header">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
 		</div>
 	</div>
 </template>
-<style  scoped>
+<style  scoped lang="scss">
 ::-webkit-scrollbar{
 	display: none;
+}
+*{
+	margin: 0;
+	padding: 0;
 }
 		.t{
 			width: 100%;
 			overflow: auto;
 		}
 		.header{
-			width:800px;
 			height:20px;
-
-				}
-			li{
-		width: 10%;
-		height:20px;
-		float:left;
-		background-color: red;
+			width: 800px;
+			}
+		li{
+		width: 20%;
+		height: 30px;
+		float: left;
 		display: inline-block;
+		text-align: center;
+		background-color: #ccc;
 	}
 </style>
 <script>

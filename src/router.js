@@ -8,6 +8,8 @@ import Shopcart from "./components/shopcart/Shopcart.vue"
 import Member from "./components/member/Member.vue"
 import Search from "./components/search/Search.vue"
 import Newslist from "./components/newslist/Newslist.vue"
+import Otherlist from "./components/other/Otherlist.vue"
+import House from "./components/house/House.vue"
 //路由规则
 let  routes = [
 		{
@@ -35,6 +37,16 @@ let  routes = [
 			name:"news.list",
 			path:"/news/list",
 			component:Newslist
+		},
+		{
+			name:"other.list",
+			path:"/other/list/:id",
+			component:Otherlist
+		},
+		{
+			name:"house.list",
+			path:"/house/list",
+			component:House
 		}
 ]
 let router = new VueRouter({routes})

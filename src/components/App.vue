@@ -1,6 +1,7 @@
 <template>
     <div>
     	<mt-header fix title="刘家小院"></mt-header>
+    	<span class="fact" @click="back">{{"<"}}</span>
    	  <router-view></router-view>
    		 <mt-tabbar v-model="selected">
 			<mt-tab-item id="home" >
@@ -22,11 +23,17 @@
 	  </mt-tabbar>
     </div>
 </template>
-<style >
+<style scoped lang="scss">
 div.mint-tabbar{
 	position:fixed;
 	left:0;
 	bottom:0;
+}
+.fact{
+	position:absolute;
+	top:-2px;
+	left:23px;
+	font-size: 30px;
 }
 </style>
 <script>
@@ -48,14 +55,16 @@ export default {
 	 },
 	methods:{
 		 changeHash() {
-		 	//vue渲染完成后要的事情
+		 	//vue渲染完成后要的事情,这个函数执行前是空的最后在changeHash执行后才给selected赋值改变，所以这个$nextTick是所有数据操作完成和页面刷新之后才执行的函数，相当于prosime函数
 		 	this.$nextTick(function(){
 		 		this.$router.push({
 		 			name:this.selected
 		 		})
 		 	})
-		 	// console.log(1111)
 	 		console.log(this.selected)
+		 },
+		 back(e){
+		 	history.go(-1)
 		 }
 	}
 }

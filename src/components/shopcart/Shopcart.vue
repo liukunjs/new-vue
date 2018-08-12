@@ -3,7 +3,7 @@
 		<h1>我是shopcart组件</h1>
 	</div>
 </template>
-<style>
+<style scoped lang="scss">
 </style>
 <script>
 	export default{

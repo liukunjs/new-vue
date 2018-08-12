@@ -4,7 +4,7 @@
 		<slot></slot>
 	</ul>
 </template>
-<style scoped>
+<style scoped >
 	ul{
 		margin: 0;
 		padding: 0;

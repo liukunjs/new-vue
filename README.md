@@ -1,3 +1,7 @@
+### first
+```
+ npm install 
+```
 # xm
 
 ## Project setup
